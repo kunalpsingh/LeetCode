@@ -31,10 +31,38 @@ Each element in the array appears twice except for one element which appears onl
 */
 package easy.com.leetcode.singlenumber;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Solution {
 	public int singleNumber(int[] nums) {
-        int num=0;
-        
-        return num;
+//        int num=0;
+//        if(nums.length>0) {
+//        	Map<Integer, Integer> m = new HashMap<>(); 
+//            for(int n : nums) {
+//            	if(m.get(n)!=null)
+//            		m.put(n, 2);
+//            	else
+//            		m.put(n, 1);
+//            }
+//            for(int key : m.keySet()) {
+//            	if(m.get(key)==1)
+//            		num = key;
+//            }
+//        }
+//        return num;
+		
+		int num = 0;
+		if(nums.length>0) {
+			for(int n: nums) {
+				num = num^n;
+			}
+		}
+		return num;
     }
+	public static void main(String[] args) {
+		Solution sol = new Solution();
+		int nums[] = {4,1,2,1,2};
+		System.out.println(sol.singleNumber(nums));
+	}
 }
