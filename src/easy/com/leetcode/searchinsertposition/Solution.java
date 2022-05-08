@@ -35,14 +35,28 @@ package easy.com.leetcode.searchinsertposition;
 
 public class Solution {
 	public int searchInsert(int[] nums, int target) {
-		int idx=0;
-        if(nums.length>0) {
-            idx = nums.length/2;
-            if(nums[idx]==target)
-            	return idx;
-        } else {
-            return 0;
-        }
-        return idx;
+		int idx=0, min=0, max=nums.length-1;
+		if(nums[nums.length-1]<=target)
+			return nums.length;
+		if(nums[0]>target)
+			return 0;
+		if(nums[0]==target)
+			return 1;
+		while(min<=max) {
+			idx = min + (max - min)/2;
+			if(nums[idx]==target)
+				return idx;
+			else if(nums[idx]>target)
+        		max = idx-1;
+        	else
+        		min = idx+1;
+		}
+        return min;
     }
+	
+	public static void main(String[] args) {
+		Solution sol = new Solution();
+		int nums[] = {1,3,5,7,9,11,13};
+		System.out.println(sol.searchInsert(nums, 12));
+	}
 }
