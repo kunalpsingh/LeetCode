@@ -30,7 +30,7 @@ s consists of parentheses only '()[]{}'.
 
 */
 
-package easy.com.leetcode.validparentheses;
+package easy.com.leetcode.validparentheses_20;
 
 import java.util.Stack;
 
