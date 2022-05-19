@@ -34,23 +34,16 @@ import java.util.Arrays;
 
 public class Solution {
 	public boolean isAnagram(String s, String t) {
-		if(s==null || t == null || s.length()!=t.length()) {
-			return false;
-		}
-		if(s.equals(t))
-			return true;
 		
-        char ch[] = s.toCharArray();
-        Arrays.sort(ch);
-        s = String.valueOf(ch);
-        
-        ch = t.toCharArray();
-        Arrays.sort(ch);
-        t= String.valueOf(ch);
-        
-        if(s.equals(t))
-        	return true;
-		return false;
+	  if(s==null || t == null || s.length()!=t.length()) { return false; }
+	  if(s.equals(t)) return true;
+	  
+	  char ch[] = s.toCharArray(); Arrays.sort(ch); s = String.valueOf(ch);
+	  
+	  ch = t.toCharArray(); Arrays.sort(ch); t= String.valueOf(ch);
+	  
+	  if(s.equals(t)) return true; return false;
+		 
     }
 	
 	public static void main(String[] args) {
