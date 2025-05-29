@@ -1,4 +1,4 @@
-package com.kunal.leetcode._9_palindrome_number;
+package com.kunal.leetcode.easy._9_palindrome_number;
 
 public class Solution {
     public boolean isPalindrome(int x) {
@@ -12,8 +12,8 @@ public class Solution {
         }
         return rev == x;
     }
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         Solution solution = new Solution();
         System.out.println(solution.isPalindrome(121));
-    }*/
+    }
 }
