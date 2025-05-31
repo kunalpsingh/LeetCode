@@ -1,4 +1,4 @@
-package com.kunal.leetcode.array_and_string.easy._80_remove_duplicates_from_sorted_array_II;
+package com.kunal.leetcode.array_and_string.medium._80_remove_duplicates_from_sorted_array_II;
 
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 
