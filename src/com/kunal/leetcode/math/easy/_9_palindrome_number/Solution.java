@@ -1,4 +1,6 @@
-package com.kunal.leetcode.easy._9_palindrome_number;
+package com.kunal.leetcode.math.easy._9_palindrome_number;
+
+//https://leetcode.com/problems/palindrome-number/description/
 
 public class Solution {
     public boolean isPalindrome(int x) {

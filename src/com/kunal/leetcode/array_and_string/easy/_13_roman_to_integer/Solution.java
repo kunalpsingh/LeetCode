@@ -1,5 +1,6 @@
+package com.kunal.leetcode.array_and_string.easy._13_roman_to_integer;
+
 //https://leetcode.com/problems/roman-to-integer/
-package com.kunal.leetcode.easy._13_roman_to_integer;
 
 public class Solution {
     public int romanToInt(String s) {

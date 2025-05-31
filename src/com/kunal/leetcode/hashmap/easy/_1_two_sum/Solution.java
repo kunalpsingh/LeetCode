@@ -1,7 +1,6 @@
+package com.kunal.leetcode.hashmap.easy._1_two_sum;
+
 //https://leetcode.com/problems/two-sum/
-
-package com.kunal.leetcode.easy._1_two_sum;
-
 import java.util.HashMap;
 import java.util.Map;
 
