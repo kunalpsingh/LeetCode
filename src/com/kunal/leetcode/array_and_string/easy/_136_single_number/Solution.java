@@ -1,6 +1,7 @@
 package com.kunal.leetcode.array_and_string.easy._136_single_number;
 
 //https://leetcode.com/problems/single-number/description/
+//https://leetcode.com/problems/single-number/solutions/6819384/java-solution-beats-99-9-o-n-time-o-1-space/
 
 public class Solution {
     public int singleNumber(int[] nums) {
