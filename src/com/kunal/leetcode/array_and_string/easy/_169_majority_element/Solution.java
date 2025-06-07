@@ -1,6 +1,7 @@
 package com.kunal.leetcode.array_and_string.easy._169_majority_element;
 
 //https://leetcode.com/problems/majority-element/
+//https://leetcode.com/problems/majority-element/solutions/6798709/java-solution-o-1-space-o-n-time/
 
 public class Solution {
     public int majorityElement(int[] nums) {
