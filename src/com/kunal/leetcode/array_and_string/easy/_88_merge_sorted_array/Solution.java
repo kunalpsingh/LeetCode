@@ -1,6 +1,7 @@
 package com.kunal.leetcode.array_and_string.easy._88_merge_sorted_array;
 
 //https://leetcode.com/problems/merge-sorted-array/
+//https://leetcode.com/problems/merge-sorted-array/solutions/6799567/java-solution-space-o-1-explained/
 
 import java.util.Arrays;
 
