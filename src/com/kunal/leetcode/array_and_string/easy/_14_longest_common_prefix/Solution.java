@@ -1,6 +1,7 @@
 package com.kunal.leetcode.array_and_string.easy._14_longest_common_prefix;
 
 //https://leetcode.com/problems/longest-common-prefix/
+//https://leetcode.com/problems/longest-common-prefix/solutions/6799427/java-solution-beats-100-time-o-s-space-o-1/
 
 public class Solution {
     public String longestCommonPrefix(String[] strs) {
