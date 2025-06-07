@@ -1,6 +1,7 @@
 package com.kunal.leetcode.array_and_string.easy._58_length_of_last_word;
 
 //https://leetcode.com/problems/length-of-last-word/
+//https://leetcode.com/problems/length-of-last-word/solutions/6799164/java-solution-beats-100-space-o-n-time-o-n/
 
 public class Solution {
     public int lengthOfLastWord(String s) {
