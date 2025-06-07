@@ -1,6 +1,7 @@
 package com.kunal.leetcode.array_and_string.medium._122_best_time_to_buy_and_sell_stock_II;
 
 //https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+//https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/solutions/6799945/java-solution-beats-80-time-o-n-space-o-1-explained/
 
 public class Solution {
     public int maxProfit(int[] prices) {
