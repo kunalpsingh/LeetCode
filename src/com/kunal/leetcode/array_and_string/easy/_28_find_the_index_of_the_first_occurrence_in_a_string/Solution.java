@@ -1,6 +1,7 @@
 package com.kunal.leetcode.array_and_string.easy._28_find_the_index_of_the_first_occurrence_in_a_string;
 
 //https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+//https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/solutions/6799536/java-solution-beats-100-sliding-window-no-in-build-method-used/
 
 public class Solution {
     public int strStr(String haystack, String needle) {
