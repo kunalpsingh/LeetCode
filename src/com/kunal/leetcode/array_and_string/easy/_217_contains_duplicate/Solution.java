@@ -1,6 +1,7 @@
 package com.kunal.leetcode.array_and_string.easy._217_contains_duplicate;
 
 //https://leetcode.com/problems/contains-duplicate/
+//https://leetcode.com/problems/contains-duplicate/solutions/6819465/java-solution-beats-98-o-n-time-o-n-space/
 
 import java.util.HashSet;
 import java.util.Set;
