@@ -1,6 +1,7 @@
 package com.kunal.leetcode.array_and_string.easy._26_remove_duplicates_from_sorted_array;
 
 //https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+//https://leetcode.com/problems/remove-duplicates-from-sorted-array/solutions/6799617/java-solution-beats-100-time-o-n-space-o-1-explained/
 
 public class Solution {
     public int removeDuplicates(int[] nums) {
