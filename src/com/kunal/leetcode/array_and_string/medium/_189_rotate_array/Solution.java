@@ -1,6 +1,7 @@
 package com.kunal.leetcode.array_and_string.medium._189_rotate_array;
 
 //https://leetcode.com/problems/rotate-array/
+//https://leetcode.com/problems/rotate-array/solutions/6799851/java-solution-time-o-n-space-o-n-explained/
 
 import java.util.Arrays;
 
