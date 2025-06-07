@@ -1,6 +1,7 @@
 package com.kunal.leetcode.array_and_string.easy._27_remove_element;
 
 //https://leetcode.com/problems/remove-element/
+//https://leetcode.com/problems/remove-element/solutions/6799598/java-solution-beats-100-time-o-n-space-o-1-explained/
 
 public class Solution {
     public int removeElement(int[] nums, int val) {
