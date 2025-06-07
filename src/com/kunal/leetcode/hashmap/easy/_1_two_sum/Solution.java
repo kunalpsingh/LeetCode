@@ -1,6 +1,8 @@
 package com.kunal.leetcode.hashmap.easy._1_two_sum;
 
 //https://leetcode.com/problems/two-sum/
+//https://leetcode.com/problems/two-sum/solutions/6820302/java-solution-beats-100-on-time-on-space-z9mi/
+
 import java.util.HashMap;
 import java.util.Map;
 
