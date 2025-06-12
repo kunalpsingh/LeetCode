@@ -1,4 +1,4 @@
-package com.kunal.leetcode.array_and_string._3442_maximum_difference_between_even_and_odd_frequency_I;
+package com.kunal.leetcode.array_and_string.easy._3442_maximum_difference_between_even_and_odd_frequency_I;
 
 //https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/
 //https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/solutions/6830953/java-solution-on-time-o1-space-explained-8qqc/
